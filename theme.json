@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "palmy-lcd", "name": "Palm LCD", "color": "#e0e8d8" },
+        { "slug": "palmy-lcd-shadow", "name": "LCD shade", "color": "#c7d4bb" },
+        { "slug": "palmy-shell", "name": "Palm shell", "color": "#cececc" },
+        { "slug": "palmy-ink", "name": "Ink", "color": "#171916" }
+      ]
+    },
+    "layout": { "contentSize": "920px", "wideSize": "1080px" },
+    "typography": { "fluid": true, "fontSizes": [] }
+  },
+  "styles": {
+    "color": { "background": "#e0e8d8", "text": "#171916" },
+    "typography": { "fontFamily": "-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif", "lineHeight": "1.55" }
+  }
+}
